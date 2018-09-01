@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowNoTitle">true</item>
+
+    </style>
+
+    <declare-styleable name="WaterRangeView">
+        <attr name="dry_color" format="color" />
+        <attr name="normal_color" format="color" />
+        <attr name="moist_color" format="color" />
+        <attr name="range_progress" format="float" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+        <attr name="cursor_text_color" format="color" />
+        <attr name="bg_view_width" format="dimension" />
+    </declare-styleable>
+
+
+</resources>

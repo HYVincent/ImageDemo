@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ImageDemo</string>
+
+    <string name="detect_result_dry">干性</string>
+    <string name="detect_result_medium">中性</string>
+    <string name="detect_result_moisture">湿润</string>
+
+</resources>

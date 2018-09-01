@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_white_ffffff"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.vincent.imagedemo.MyView
+            android:id="@+id/myView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_210" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_115"
+            android:layout_marginLeft="@dimen/size_18"
+            android:layout_marginRight="@dimen/size_18"
+            android:layout_marginTop="@dimen/size_10"
+            android:background="@drawable/shape_background_imaginary_line"
+            android:paddingLeft="@dimen/size_20"
+            android:paddingRight="@dimen/size_20">
+
+
+            <com.example.vincent.imagedemo.ImageViewValue
+                android:id="@+id/imageViewValue"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_input"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+
+
+        <ImageView
+            android:src="@mipmap/ic_launcher_round"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_210">
+
+            <com.example.vincent.imagedemo.WhiteDegreeImageView
+                android:id="@+id/wdiv_imageview"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_210" />
+
+            <com.example.vincent.imagedemo.CircleAndLineView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
